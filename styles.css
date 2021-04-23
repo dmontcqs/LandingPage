@@ -1,0 +1,156 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body {
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    font-family: "Lexend Mega", sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+h2, h3, h4, p {
+    margin: 0;
+    padding: 10px;
+}
+
+
+header {
+    height: 100px;
+    width: 100%;
+    display: block;
+        
+}
+
+header img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  
+}
+
+
+nav {
+  display: flex;
+  margin-left: auto;
+  margin-right: 0 10%;
+  width: auto;
+  justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+.statement {
+    display: flex;
+    height: 350px;
+    width: 100%;
+    background-image: url(./resources/code.jpeg);
+    background-size: 100%;
+    padding-top: 35px;
+    justify-content: center;
+
+}
+
+.statement .content {
+    margin: auto;
+    background-color: white; 
+    width: 100%; 
+    text-align: center;
+    height: auto;
+    padding: 20px;
+}
+
+
+
+/* TERCERA SECCIÓN */
+
+
+#portafolio {
+    min-height: 500px;
+    margin: auto;
+    padding-top: 70px;
+
+}
+
+.companies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;  /*  Align alinea en eje Y; justify alinea en eje X */
+}
+
+.company {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.company img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    padding: 10px;
+    height: auto;
+}
+.company span {
+    padding: 5px; 
+    min-width: 240px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+
+/* cuarta sección  */
+
+.team {
+    background-image:url(./resources/pool.jpeg);
+    padding-top: 70px;
+    padding-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; ;
+}
+
+.teammate {
+    padding: 10px;
+    color: white;
+    flex-basis: 280px;
+}
+
+.teammate img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 280px;
+}
+
+
+.teammate p {
+    padding-bottom: 30px;
+}
+
+
+
+
+/* quinta sección  */
+
+.contact {
+    padding-top: 20px;
+    background-color: white;
+}
+
+.copyright {
+    background-color: white;
+    height: 70px;
+}
+
+
+
+
